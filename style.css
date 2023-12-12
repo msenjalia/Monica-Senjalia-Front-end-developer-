@@ -112,3 +112,20 @@ a {
   font-size: 56px;
   text-align: center;
 }
+
+@media (max-width: 576px) {
+  .app-img {
+    display: none;
+  }
+  .container {
+    display: inline-block;
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+  }
+
+  .app-desc {
+    width: 400px;
+    padding: 8px;
+  }
+}
